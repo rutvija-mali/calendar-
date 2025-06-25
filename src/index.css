@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-playfair: "Playfair Display", 'serif';
+ 
+}
+
+
+
+.rbc-month-view .rbc-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+  text-transform: uppercase;
+}
+
+
+.rbc-month-view .rbc-today {
+  background-color: #e0f2fe !important;
+  font-weight: bold;
+}
+
+
+.rbc-month-view .rbc-date-cell {
+  font-size: 0.85rem;
+  padding-top: 0.2rem;
+}
+
+
+.rbc-month-row {
+  min-height: 5rem;
+}
+
+.rbc-allday-cell {
+  height: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+.rbc-time-header-cell {
+  height: 4rem;
+  display: flex;
+  
+}
+
+.rbc-timeslot-group {
+  box-shadow: -1px -1px 0px 0px #E0E0E0 inset;
+  min-height: 4rem;
+}
+
+.rbc-time-view {
+  scrollbar-gutter: stable both-edges;
+}
